@@ -15,5 +15,13 @@ NATIVE_COUNTRY_LIST = ["United-States", "Cambodia", "England", "Puerto-Rico", "C
 					    "Nicaragua", "Scotland", "Thailand", "Yugoslavia", "El-Salvador", "Trinadad&Tobago", "Peru", \
 						"Hong", "Holand-Netherlands"]
 
+DATAFRAME_COLUMNS = ["age", "workclass", "fnlwgt", "education", "educational-num", "marital-status", "occupation", "relationship", "race", \
+					 "gender", "capital-gain", "capital-loss", "hours-per-week", "native-country", "income"]
 
+
+NUMERICAL_COLUMNS = ['age', 'fnlwgt', 'educational-num', 'capital-gain', 'capital-loss', 'hours-per-week']
+CATEGORICAL_COLUMNS = ['workclass', 'education', 'marital-status', 'occupation', 'relationship', 'race', \
+				   							 'gender', 'native-country']
+# Setting layout
 LOGO_IMG_PATH = "./source/logoFptEdu.png"
+BACKGROUND_IMG_PATH = ...
